@@ -58,7 +58,7 @@ navegador.find_element_by_xpath('//*[@id="formNovo"]/h4[3]').click()
 #inserir a descrição da nota
 navegador.find_element_by_xpath('//*[@id="formNovo"]/p[1]/textarea').send_keys(descricao_nota)
 
-navegador.find_element_by_xpath('//*[@id="formNovo"]/div[12]/div[2]/input').send_keys('125000')
+navegador.find_element_by_xpath('//*[@id="formNovo"]/div[12]/div[2]/input').send_keys(VALOR_NF)
 
 #Preencher a aliquota
 navegador.find_element_by_xpath('//*[@id="dvSelectAliquota"]/select').click()
